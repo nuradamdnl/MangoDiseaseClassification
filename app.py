@@ -27,7 +27,8 @@ def predict_class(image, model, class_names):
 model = load_model()
 
 # Define class names
-class_names = ['Anthracnose', 'Bacterial Canker', 'Cutting Weevil']
+class_names = ['Anthracnose', 'Bacterial Canker', 'Cutting Weevil', 'Die Back', 'Gall Midge', 'Healthy']
+
 
 # Streamlit app title
 st.title('Mango Leaf Disease Classifier')
